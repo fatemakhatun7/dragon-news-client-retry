@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useTitle from '../../../hooks/useTitle';
 
 const TermsAndConditions = () => {
+    useTitle("Terms and conditions");
     return (
         <div>
             <h3>Here is our Terms and conditions</h3>
